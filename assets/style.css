@@ -1,0 +1,35 @@
+* {
+    box-sizing: content-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px 5px 0px 5px;
+}
+
+#container-form {
+    display: flex;
+    justify-content: right;
+    gap: 5px;
+}
+
+#main-highscore-btn {
+    font-size: 24px;
+}
+
+.btn {
+    background-color: darkblue;
+    color: white;
+    border-radius: 8px;
+}
+
+#btn-start {
+    font-size: 24px;
+}
+
+#options {
+    display: flex;
+    justify-content: center;
+}
